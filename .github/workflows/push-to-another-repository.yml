@@ -23,7 +23,7 @@ jobs:
           source-directory: 'output'
           destination-github-username: uzoolove
           destination-repository-name: final-00-lionboard-release
-          user-email: ${{ secrets.EMAIN_YONG }}
+          user-email: ${{ secrets.EMAIL_YONG }}
           commit-message: ${{ github.event.commits[0].message }}
           target-branch: main
       - name: Test get variable exported by push-to-another-repository
